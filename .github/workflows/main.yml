@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar API Key (No se mostrará por seguridad)
-        run: echo "API Key: ${{ secrets.API_KEY }}"
+        run: |
+          echo "API Key: ${{ secrets.API_KEY }}"
