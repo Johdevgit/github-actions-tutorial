@@ -10,5 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Mostrar API Key (No se mostrará por seguridad)
-          if: env.PLATAFORMA == 'AWS'
           run: echo "API Key: ${{ secrets.API_KEY }}"
