@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
             int index = i;
             celdas[i].onClick.AddListener(() => CellClicked(index));
         }
-        UpdateTextoTurno() //LINEA QUE DA ERROR
+        UpdateTextoTurno(); // Arreglado, faltaba el punto y coma
     }
 
     void CellClicked(int index)
