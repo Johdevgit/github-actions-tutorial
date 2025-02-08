@@ -19,19 +19,9 @@ public class GameManager : MonoBehaviour
             int index = i;
             celdas[i].onClick.AddListener(() => CellClicked(index));
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-        UpdateTextoTurno(); // Arreglado, faltaba el punto y coma
-                            // Agregando este comentario para comprobar funcionalidad del github action
-=======
-        UpdateTextoTurno() //LINEA QUE DA ERROR
->>>>>>> main
-=======
-
         UpdateTextoTurno(); // Arreglado, faltaba el punto y coma
                             // Agregando este comentario para comprobar funcionalidad del github action
 
->>>>>>> b8e5059ddb74f294ae23f3f361b686d48862223e
     }
 
     void CellClicked(int index)
