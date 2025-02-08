@@ -19,8 +19,10 @@ public class GameManager : MonoBehaviour
             int index = i;
             celdas[i].onClick.AddListener(() => CellClicked(index));
         }
+
         UpdateTextoTurno(); // Arreglado, faltaba el punto y coma
                             // Agregando este comentario para comprobar funcionalidad del github action
+
     }
 
     void CellClicked(int index)
@@ -55,7 +57,7 @@ public class GameManager : MonoBehaviour
 
         if (Tablerolleno())
         {
-            EndGame("¡Empate!");
+            EndGame("Â¡Empate!");
         }
     }
 
